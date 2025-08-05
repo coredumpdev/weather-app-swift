@@ -55,7 +55,7 @@ struct WeatherDayView: View {
                 .font(.system(size: 18, weight: .medium, design: .default))
                 .foregroundStyle(Color.white)
             Image(systemName: imageName)
-                .renderingMode(.original)
+                .symbolRenderingMode(.multicolor)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 40, height: 40)
